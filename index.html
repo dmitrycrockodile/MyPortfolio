@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Dmytro</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4365/4365945.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/jpg/me.jpg"
+              alt="My image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Dmytro Bermas</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="#" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#about" class="header__link"> About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="#projects" class="header__link"> Projects </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="#"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="#projects"> Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hello! My name is Dmytro</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I'm a dedicated and enthusiastic web developer currently in the final year of my bachelor's degree. 
+            I specialize in working with modern web technologies, including JavaScript frameworks like React and Vue 
+            for building responsive front-end interfaces. On the back-end, I utilize PHP (Laravel) to craft robust
+            server-side applications. When it comes to managing data, I rely on MySQL for traditional databases 
+            and GraphQL for flexible and efficient data querying.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hello! I’m a passionate full-stack developer currently in 
+                my final year of a bachelor’s degree. I specialize in building 
+                modern, responsive, and feature-rich web applications by 
+                seamlessly blending front-end and back-end technologies.
+              </p>
+              <p class="about__content-details-para">
+                On the front-end, I create dynamic user interfaces using <strong>JavaScript</strong>
+                frameworks like <strong>React</strong> and <strong>Vue</strong>, ensuring 
+                that every website is visually appealing and easy to navigate. On the back-end, I 
+                leverage the power of <strong>PHP (Laravel)</strong> to develop robust server-side
+                logic and APIs. For data management, I work with <strong>MySQL</strong> and 
+                <strong>GraphQL</strong>, depending on the project’s requirements.
+              </p>
+            </div>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS/SCSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Vue</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Laravel</div>
+              <div class="skills__skill">MySQL</div>
+              <div class="skills__skill">GraphQL</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Postman</div>
+              <div class="skills__skill">Git</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Karte.png"
+                alt="Karte shop image"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Karte | Online shop</h3>
+              <p class="projects__row-content-desc">
+                This project is a feature-rich online shop built with a seamless integration of front-end and back-end technologies: Javascript (Vue), PHP (Laravel), MySQL, Docker.
+              </p>
+              <a
+                href="https://github.com/dmitrycrockodile/Karte-online-shop"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+              >See code</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Online shop.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">SPA Online Shop</h3>
+              <p class="projects__row-content-desc">
+                This Online Shop is a modern e-commerce platform developed with React and GraphQL.
+                Frontend: Built with React for dynamic and responsive user interfaces.
+                Backend: Powered by GraphQL, enabling efficient and flexible data fetching for improved performance.
+              </p>
+              <a
+                href="https://github.com/dmitrycrockodile/SPA_online-shop"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >See code</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/Cinema.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cinema Application</h3>
+              <p class="projects__row-content-desc">
+                This Cinema Application is a sleek and intuitive platform built using React, designed to enhance the movie-going experience.
+                With React’s dynamic rendering capabilities, the interface is highly responsive and provides a smooth user experience.
+                This project highlights a focus on usability, interactivity, and modern front-end development practices.
+              </p>
+              <a
+                href="https://github.com/dmitrycrockodile/online-cinema"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+              >See code</a>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Socials</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dmitry-bermas-bb3115238/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/dmitrycrockodile">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Dmytro Bermas</h4>
+            <p class="main-footer__short-desc">
+              Looking forward to joining your team — hope you’ll hire me! 😄
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
